@@ -1,0 +1,29 @@
+<template id="card-academy">
+    <article>
+        <h6>${title}:</h6>
+        <ul class="padding">
+            ${description}
+        </ul>
+    </article>
+</template>
+<script>
+    class CardAcademy extends HTMLElement {
+        constructor() {
+            super();
+            this.html = document.querySelector('template#card-academy')?.content
+        }
+        async connectedCallback() {
+            let response = await fetch("./section/academy.json")
+            if (response.ok) {
+                let data = await response.json();
+                data.forEach(element => {
+                    const clone = this.html.cloneNode(true)
+                    element.description = element.descriptions.map(arch => `<li>${arch}</li>`).join('')
+                    clone.querySelector("article").innerHTML = Object.replaceEntries(clone.querySelector("article").innerHTML, element)
+                    this.appendChild(clone)
+                });
+            }
+        }
+    }
+    window.customElements.define("card-academy", CardAcademy);
+</script>

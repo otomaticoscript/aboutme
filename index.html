@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <title>Sobre Mi</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Language" content="es">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
+  <link href="assets/css/beer.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<style>
+  body.light {
+    --primary: #00677d;
+    --on-primary: #ffffff;
+    --primary-container: #b4ebff;
+    --on-primary-container: #001f27;
+    --secondary: #4c626a;
+    --on-secondary: #ffffff;
+    --secondary-container: #cee6f0;
+    --on-secondary-container: #061e25;
+    --tertiary: #595c7e;
+    --on-tertiary: #ffffff;
+    --tertiary-container: #dfe0ff;
+    --on-tertiary-container: #161937;
+    --error: #ba1a1a;
+    --on-error: #ffffff;
+    --error-container: #ffdad6;
+    --on-error-container: #410002;
+    --background: #fbfcfe;
+    --on-background: #191c1d;
+    --surface: #f8f9fb;
+    --on-surface: #191c1d;
+    --surface-variant: #dbe4e8;
+    --on-surface-variant: #40484b;
+    --outline: #70787c;
+    --outline-variant: #bfc8cc;
+    --shadow: #000000;
+    --scrim: #000000;
+    --inverse-surface: #2e3132;
+    --inverse-on-surface: #eff1f2;
+    --inverse-primary: #5ad5f9;
+    --surface-dim: #d8dadc;
+    --surface-bright: #f8f9fb;
+    --surface-container-lowest: #ffffff;
+    --surface-container-low: #f2f4f5;
+    --surface-container: #eceeef;
+    --surface-container-high: #e7e8ea;
+    --surface-container-highest: #e1e3e4;
+  }
+</style>
+
+<body class="light">
+  <header id="menustrip" class="primary no-print">
+    <nav class="center-align">
+      <ul class="max">
+        <li><a href="#about">Sobre mi</a></li>
+        <li><a href="#academy">Formacion</a></li>
+        <li><a href="#experience">Experiencia Laboral</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <button type="button" onclick="print()"><i>print</i></button>
+      <button data-ui="#dialog-porfolio">
+        <img class="circle tiny" src="./assets/img/favicon.png" />
+        <div class="tooltip bottom">Porfolio</div>
+      </button>
+
+    </nav>
+  </header>
+  <main id="content" class="responsive background">
+    <section id="about" class="">
+      <div class="grid no-space">
+        <div class="s9">
+          <div class="padding">
+            <h5>Otavio Ferreira Rosa</h5>
+            <address class="only-print">
+              <strong>DNI:</strong> 51738980C<br>
+              <strong>Fecha de nacimiento:</strong> 14/02/1984<br>
+              <strong>Nacionalidad:</strong> Brasileña/Española<br>
+              <strong>Teléfono:</strong> +34 696 76 85 10<br>
+              <strong>E-mail:</strong> otavioferreir@gmail.com<br>
+            </address>
+          </div>
+        </div>
+        <div class="s1 ">
+          <img class="round extravagance" src="./assets/img/profile.png">
+        </div>
+      </div>
+    </section>
+
+    <section id="academy" class="">
+      <h5 class="no-print">Formacion</h5>
+      <card-academy></card-academy>
+    </section>
+
+    <section id="experience" style="margin-top: 32px;">
+      <h5>Experiencia Profesional</h5>
+      <card-experience></card-experience>
+    </section>
+
+  </main>
+  <footer id="contact" class="primary no-print">
+    <p class="no-print">
+      <a href="https://wa.me/34696768510?text=He%20visto%20tu%20CV"><i>phone</i>&nbsp;+34 696 76 85 10</a><br>
+      <a href="mailto:otavioferreir@gmail.com?Subject=He%20visto%20tu%20CV"><i>mail</i>&nbsp;otavioferreir@gmail.com</a>
+    </p>
+  </footer>
+  <a id="top" class="chip circle no-print" href="#menustrip">
+    <i>arrow_upward</i>
+    <div class="tooltip top">Incio</div>
+  </a>
+  <dialog class="max" id="dialog-porfolio">
+    <h5>Fullscreen</h5>
+    <div>Some text here</div>
+    <nav class="right-align">
+      <button class="border" data-ui="#dialog-porfolio">Cancel</button>
+      <button data-ui="#dialog-porfolio">Confirm</button>
+    </nav>
+  </dialog>
+  <!--
+
+    <script type="module" src="assets/js/beer.min.js"></script>
+    <script type="module" src="assets/js/material-dynamic-colors.min.js"></script>
+  -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.4.0/dist/cdn/beer.min.js"></script>
+
+  <script type="module"
+    src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.0.5/dist/cdn/material-dynamic-colors.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

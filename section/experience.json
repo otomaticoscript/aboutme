@@ -1,0 +1,69 @@
+[
+   {
+      "title":"Aura IRC – Grupo SM",
+      "subtitle":"(12/2021 - Actual)",
+      "role":"Analista Programador Senior",
+      "achievements":[
+         "Desarrollo de aplicaciones Web (B|Toven)",
+         "Mantenimiento de las aplicaciones existentes"
+      ]
+   },
+   {
+      "title":"Mnemo - BBVA",
+      "subtitle":"(12/2019 - 09/2021)",
+      "role":"Analista Programador Senior",
+      "achievements":[
+         "Desarrollo de aplicaciones ad-hoc para las interconexiones con los servicios del cliente",
+         "Mantenimiento de las aplicaciones existentes."
+      ]
+   },
+   {
+      "title":"Unatec S.L",
+      "subtitle":"(07/2019-11/2019)",
+      "role":"Analista Programador Senior",
+      "achievements":[
+         "Sistema inteligente de generación de órdenes de mantenimiento programados para centrales eólicas",
+         "Mantenimiento de la aplicación SEOS"
+      ]
+   },
+   {
+      "title":"Tenea Consulting para GrupoBC",
+      "subtitle":"(09/2016-06/2019)",
+      "role":"Programador",
+      "achievements":[
+         "Integración con el sistema electrónico hipotecario digital",
+         "PRT: Pago Registro Telemático",
+         "4Eyes: Sistema automatizado de revisión de facturas hipotecarias",
+         "Mantenimiento de la aplicación COSMOS"
+      ]
+   },
+   {
+      "title":"Marktel SL",
+      "subtitle":"(04/2016-08/2016)",
+      "role":"Programador",
+      "achievements":[
+         "Desarrollo de aplicaciones adhoc para las interconexiones con los servicios del cliente (Jazztel, Vodafone, Sanitas)",
+         "Desarrollo de aplicaciones internas",
+         "Scripts para Telemarketer (ORIGN de Grupo77)"
+      ]
+   },
+   {
+      "title":"GrupoBig",
+      "subtitle":"(08/2009-04/2016)",
+      "role":"Programador Junion",
+      "achievements":[
+         "Desarrollo de aplicaciones adhoc para las interconexiones con los servicios del cliente (PSA, ADLPartner, ONO Sanitas)",
+         "Scripts para Telemarketer (TIPHONE de Adlantia)"
+      ]
+   },
+   {
+      "title":"Novavoz Soluciones para GrupoBig",
+      "subtitle":"(06/2008-08/2009)",
+      "role":"Administrador de Sistema",
+      "achievements":[
+         "Mantenimiento del material informático",
+         "Administración de sistemas Vo-IP",
+         "Administrador de BBDD"
+      ]
+   }
+]

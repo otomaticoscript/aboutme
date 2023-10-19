@@ -1,0 +1,36 @@
+<template id="card-experience">
+    <article>
+        <div class="grid no-space">
+            <div class="s3">
+                <p>${title}</p>
+                <small>${subtitle}</small>
+            </div>
+            <div class="s9">
+                <ul class="padding">
+                    ${achievement}
+                </ul>
+            </div>
+        </div>
+    </article>
+</template>
+<script>
+    class CardExperience extends HTMLElement {
+        constructor() {
+            super();
+            this.html = document.querySelector('template#card-experience')?.content
+        }
+        async connectedCallback() {
+            let response = await fetch("./section/experience.json")
+            if (response.ok) {
+                let data = await response.json();
+                data.forEach(element => {
+                    const clone = this.html.cloneNode(true)
+                    element.achievement = element.achievements.map(arch => `<li>${arch}</li>`).join('')
+                    clone.querySelector("article").innerHTML = Object.replaceEntries(clone.querySelector("article").innerHTML, element)
+                    this.appendChild(clone)
+                });
+            }
+        }
+    }
+    window.customElements.define("card-experience", CardExperience);
+</script>

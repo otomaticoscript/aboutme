@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Datos Académicos",
+        "descriptions": [
+            " 2009 - 2016 Grado en ingeniería del Software UPM",
+            "2007 - 2008 Técnico en Administración de Sistemas Informáticos"
+        ]
+    },
+    {
+        "title": "Certificaciones",
+        "descriptions": [
+            "Scrum Foundation Professional SFPC por CertiProf",
+            " Desarrollo de Aplicaciones Web por Microsoft"
+        ]
+    },
+    {
+        "title": "Idiomas",
+        "descriptions": [
+            "Portugués: Nativo",
+            " Español: Bilingüe",
+            " Ingles: Medio"
+        ]
+    },
+    {
+        "title": "Otros cursos",
+        "descriptions": [
+            "Selvet (2020) por Udemy",
+            " Desarrollo con QlikView (2020) Udemy",
+            " Python for everyone (Python 3 en 2019) por edX.org",
+            " Introducción a la Ingeniería del Software (2018-2019) por edX.org",
+            " Blogs como herramienta de ventas (2017) por CursoProspera.com",
+            " Desarrollo de videojuego en HTML5 (2017) por CursoProspera.com",
+            " C Sharp para principiates (2009) por Dot.NET UPM",
+            " PHP for Dummy (2009) por Enelia Studio",
+            " CRM Dynamic (instalación y gestión) (2009) en Academia Azca"
+        ]
+    },
+    {
+        "title": "Conocimientos Tecnológicos",
+        "descriptions": [
+            " Lenguajes de Programación: C/C++, C#, VB/VB.NET, Java, Javascript, VBScript, TypeScript, HTML/HTML5, CSS, PHP, Python.",
+            " Frameworks: Angular, Entity Framework, Laravel, VueJs, Nodejs, NetCore.",
+            " Herramientas colaborativas: TFS, GIT, JIRA, Testlink, Redmine...",
+            " Base de Datos: SQL Server, MySQL, SQLite, mongoDB... "
+        ]
+    }
+]
