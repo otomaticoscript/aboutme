@@ -1,0 +1,12 @@
+[
+   {
+      "title":"Ágora",
+      "img":"./assets/img/agora-porfolio.png",
+      "description":"Aplicacion flexible de proposito general que se adapta al cualquier negocio. Escrita en CSharp y HTML5, VanillaJS y Bootstrap 5.3, puede utilizar Docker, MySQL o SQLServer"
+   },
+   {
+      "title":"Edit Pixel",
+      "img":"./assets/img/editpixel-porfolio.png",
+      "description":"SPA para crear sprite de forma agil,. Escrita en HTML5, VanillaJS, cssVanilla"
+   }
+]

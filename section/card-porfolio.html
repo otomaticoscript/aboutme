@@ -1,0 +1,35 @@
+<template id="card-porfolio">
+    <article>
+        <div class="grid no-space">
+            <div class="s3">
+                <img src="${img}"/>
+            </div>
+            <div class="s9">
+                <h6>${title}</h6>
+                <blockquote class="padding">
+                    ${description}
+                </blockquote>
+            </div>
+        </div>
+    </article>
+</template>
+<script>
+    class CardPorfolio extends HTMLElement {
+        constructor() {
+            super();
+            this.html = document.querySelector('template#card-porfolio')?.content
+        }
+        async connectedCallback() {
+            let response = await fetch("./section/porfolio.json")
+            if (response.ok) {
+                let data = await response.json();
+                data.forEach(element => {
+                    const clone = this.html.cloneNode(true)
+                    clone.querySelector("article").innerHTML = Object.replaceEntries(clone.querySelector("article").innerHTML, element)
+                    this.appendChild(clone)
+                });
+            }
+        }
+    }
+    window.customElements.define("card-porfolio", CardPorfolio);
+</script>
