@@ -40,6 +40,8 @@ window.importeComponent = (file) => {
 
 window.addEventListener('DOMContentLoaded', () => {
     [
+        
+        "./section/card-porfolio.html",
         "./section/card-experience.html",
         "./section/card-academy.html"
     ].forEach((element) => {

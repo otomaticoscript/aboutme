@@ -44,14 +44,27 @@ a#top {
   block-size: 8rem;
   inline-size: 8rem;
 }
-.only-print{
+
+.only-print {
   display: none;
 }
+
+card-porfolio img {
+  min-width: 100px;
+  max-width: 200px;
+}
+
+card-academy,
+card-experience,
+card-porfolio {
+  display: block;
+}
+
 @media print {
-  .only-print{
+  .only-print {
     display: block;
   }
-  
+
   .no-print {
     display: none;
   }
