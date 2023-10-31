@@ -2,16 +2,19 @@
    {
       "title":"Ágora",
       "img":"./assets/img/Agora-porfolio.png",
-      "description":"Aplicacion flexible de proposito general que se adapta al cualquier negocio. Escrita en CSharp y HTML5, VanillaJS y Bootstrap 5.3, puede utilizar Docker, MySQL o SQLServer <a href='https://github.com/otomaticoscript/agora'><img src='./assets/img/github.svg'/>GitHub</a>"
+      "description":"Aplicacion flexible de proposito general que se adapta al cualquier negocio. Escrita en CSharp y HTML5, VanillaJS y Bootstrap 5.3, puede utilizar Docker, MySQL o SQLServer",
+      "github":"https://github.com/otomaticoscript/agora"
    },
    {
       "title":"Edit Pixel",
       "img":"./assets/img/EditPixel-porfolio.png",
-      "description":"SPA para crear sprite de forma agil,. Escrita en HTML5, VanillaJS, cssVanilla. <a href='https://github.com/otomaticoscript/editpixel'><img src='./assets/img/github.svg'/>GitHub</a> "
+      "description":"SPA para crear sprite de forma agil,. Escrita en HTML5, VanillaJS, cssVanilla.",
+      "github":"https://github.com/otomaticoscript/editpixel"
    },
    {
       "title":"PostWoman",
       "img":"./assets/img/PostWoman-porfolio.jpg",
-      "description":"GUI para el comando Invoke-WebRequest, es como la aplicacion Postman. <a href='https://github.com/otomaticoscript/postwoman'><img src='./assets/img/github.svg'/>GitHub</a>"
+      "description":"GUI hecho con WinForm y powershell para el comando Invoke-WebRequest, es como la aplicacion Postman.",
+      "github":"https://github.com/otomaticoscript/postwoman"
    }
 ]

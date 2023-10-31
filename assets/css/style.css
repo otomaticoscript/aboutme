@@ -50,10 +50,12 @@ a#top {
 }
 
 card-porfolio img {
-  min-width: 100px;
-  max-width: 200px;
+  width: 80%;
+  border-radius: initial;
 }
-
+card-porfolio .s3{
+  margin:auto
+}
 card-academy,
 card-experience,
 card-porfolio {
@@ -74,4 +76,9 @@ card-porfolio {
     margin-block-start: 0;
     padding: 0.2rem;
   }
+}
+
+a[href*="github.com"] img{
+  width: 16px;
+  height: 16px;
 }
