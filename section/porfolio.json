@@ -2,7 +2,7 @@
    {
       "title":"Ágora",
       "img":"./assets/img/Agora-porfolio.png",
-      "description":"Aplicacion flexible de proposito general que se adapta al cualquier negocio. Escrita en CSharp y HTML5, VanillaJS y Bootstrap 5.3, puede utilizar Docker, MySQL o SQLServer <a href='https://github.com/otomaticoscript/agora'><img src="./assets/img/github.svg"/>GitHub</a>"
+      "description":"Aplicacion flexible de proposito general que se adapta al cualquier negocio. Escrita en CSharp y HTML5, VanillaJS y Bootstrap 5.3, puede utilizar Docker, MySQL o SQLServer <a href='https://github.com/otomaticoscript/agora'><img src='./assets/img/github.svg'/>GitHub</a>"
    },
    {
       "title":"Edit Pixel",
