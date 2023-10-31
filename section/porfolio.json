@@ -7,11 +7,11 @@
    {
       "title":"Edit Pixel",
       "img":"./assets/img/EditPixel-porfolio.png",
-      "description":"SPA para crear sprite de forma agil,. Escrita en HTML5, VanillaJS, cssVanilla. <a href='https://github.com/otomaticoscript/editpixel'><img src="./assets/img/github.svg"/>GitHub</a> "
+      "description":"SPA para crear sprite de forma agil,. Escrita en HTML5, VanillaJS, cssVanilla. <a href='https://github.com/otomaticoscript/editpixel'><img src='./assets/img/github.svg'/>GitHub</a> "
    },
    {
       "title":"PostWoman",
       "img":"./assets/img/PostWoman-porfolio.jpg",
-      "description":"GUI para el comando Invoke-WebRequest, es como la aplicacion Postman. <a href='https://github.com/otomaticoscript/postwoman'><img src="./assets/img/github.svg"/>GitHub</a>"
+      "description":"GUI para el comando Invoke-WebRequest, es como la aplicacion Postman. <a href='https://github.com/otomaticoscript/postwoman'><img src='./assets/img/github.svg'/>GitHub</a>"
    }
 ]
